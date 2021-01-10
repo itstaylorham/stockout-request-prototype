@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>STOCKOUT REQUEST PROTOTYPE</title>
+        <link rel="icon" href="images/icon.svg" type="icon" sizes="16x16">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <header>
+                <a href="javascript:Error()"><img src="images/profile.png" style="width: 50px; padding: 10px; float: left; "></a>
+                <a href="javascript:Error()"><img src="images/search.png" style="width: 50px; padding: 10px; float: right; "></a>
+                <a href="javascript:Error()"><img src="images/keypad.png" style="width: 50px; padding: 10px; float: right; filter: invert(1);"></a>   
+        </header>   
+        <div class="main" style="text-align: center;">
+            <a href="inventory.html"><img src="images/return.png" style=" width: 50px;"></a>
+            <p id="item-name">Stockout Requests</p>
+            <p style="color:lightslategray"></p>
+            <p id="unique-id">2389 27 8843 (Playstation 5 Console)</p>
+            
+            
+        </div>
+        <hr>
+
+        <div class="menu-items" style="text-align: center; line-height: 20px;">
+            <h2>Product ID:</h2>
+            <input type="text" value="2389 27 8843" disabled="disabled">
+            <h1 style="color: black; font-size: 1.5em;">Requests</h1>
+            <input type="text" id="requests" value="0" disabled="disabled"></input>
+            <br><br>
+            <button  onclick="javascript:addRequest();javascript:confirmAddRequest();">Add New Request [+]</button>
+            <br><br>
+            <button  onclick="javascript:removeRequest();javascript:confirmRemoveRequest();" style="color: rgb(196, 3, 3);">Remove Request</button>
+        </div>
+    </body>
+    <footer>
+        Developed by <a href="https://jeremybdev.com">Jeremy Barton</a>
+    </footer>
+</html>
+
+<script src="app.js"></script>

@@ -1,0 +1,77 @@
+header {
+    height: 75px;
+    background-color: #E80018;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+
+label {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.nav-btn {
+    width:250px;
+    height:100px; 
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+    line-height: 15px;
+}
+#item-name {
+    font-size: 3.5em;
+    color:rgb(50, 94, 241);
+    line-height: 1em;
+}
+
+#unique-id {
+    font-size: 1.5em;
+    color: black;
+    line-height: 1em;
+}
+
+#find-elsewhere{
+    font-size: 1em;
+    color:rgb(50, 94, 241);
+}
+
+#subheading {
+    font-size: 2em;
+    color:rgb(50, 94, 241)
+}
+
+.menu-items{
+    font-size: 1.2em;
+    color:rgb(50, 94, 241);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-items button {
+    width: 250px;
+    height: 50px;
+    font-size: 14pt;
+}
+
+#requests {
+    height:150px;
+    width: 150px;
+    font-size:70pt;
+    text-align: center;
+}
+
+footer {
+    margin-top: 1em;
+    padding: 10px;
+    background-color:rgba(184, 184, 184, 0.521)
+}
